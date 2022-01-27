@@ -48,6 +48,7 @@ newTaskForm.addEventListener("submit", (event) => {
     status
   );
 });
+<<<<<<< HEAD
 
 // validate the form
 const validFormFieldInput = (
@@ -116,6 +117,8 @@ const validFormFieldInput = (
   );
 };
 
+=======
+>>>>>>> 0f566c800cad13e2cf7aba60dfa33f5def8af705
 // format date
 const formatDate = (date) => {
   let month = date.getMonth() + 1;
@@ -131,7 +134,10 @@ const formatDate = (date) => {
   // december dueDate > april currentDate = true is good
   // dueDate < today cannot be allowed
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f566c800cad13e2cf7aba60dfa33f5def8af705
 /**
  * Set error message for each invalid input
  */
@@ -156,4 +162,8 @@ function clearErrorMessage(element) {
   small.innerText = "";
   small.style.visibility = "hidden";
   element.parentElement.classList.remove("error");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0f566c800cad13e2cf7aba60dfa33f5def8af705
